@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://kit.fontawesome.com/f1286f071f.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img src="assets/icons/moon.svg" alt="" class="toggle-theme-icon" id="toggle-theme-icon">
+        <p id="toggle-teme-text" class="toggle-teme-text">Dark Mode</p>
+
+      </div>
+    </div>
+    <div id="toggle-colors" class="colors">
+      <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+      <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+      <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+      <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="column column--left">
+      <article class="card card--profile">
+        <div class="card__image-container">
+          <img src="/assets/images/profile.jpg" alt="">
+        </div>
+        <div class="card__header">
+          <h2 class="card__title">Juan Miguel Barcenas</h2>
+          <p class="card__subtitle">Front end developer</p>
+        </div>
+        <div class="card__body">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:jbarcenasmateos@gmail.com">jbarcenasmateos@gmail.com</a>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+            <a href="tel:2215155131">+52 2215155131</a>
+          </div>
+          <p class="card__text">
+            Estoy iniciando en el mundo del desarrollo web. Tengo un gran interés en aprender y tomar lo
+            mejor de cada lugar, combinado con mis habilidades de comunicación y resolución de
+            problemas, creo que mis habilidades me convierten en un excelente candidato para un rol de
+            Desarrollador Web en su empresa. Puedo aportar mis habilidades técnicas y mi pasión por la
+            colaboración al equipo de su empresa. Estoy buscando un papel con una relación a largo plazo
+          </p>
+        </div>
+      </article>
+      <article class="card card--experience">
+        <h2 class="card__title">Experiences</h2>
+        <div class="experience">
+          <img src="assets/images/logo.png" alt="logo" class="experience__image">
+          <div class="experience__info">
+            <p class="experience__time">
+              January 2022 - current
+            </p>
+            <h2 class="experience__job">Front end Developer</h2>
+            <p class="experience_description">Factoría de marketing (2022- A la fecha): Desarrollador de software y
+              diseñador gráfico Hasta el día de hoy, estoy trabajando con una empresa de marketing que necesita ayuda en
+              la depuración o creación de una página web.</p>
+          </div>
+        </div>
+      </article>
+      <article class="card card--hobbies">
+        <h2 class="card__title">Hobbies</h2>
+        <div class="card__image-container">
+          <img src="assets/images/hobbie.png" alt="Hobbie">
+        </div>
+        <h3 class="hobbie__title"> RUNNING</h3>
+        <p class="card__text">Esta actividad es una de las más practicadas por gran parte de la población, tanto por su
+          accesibilidad como por los beneficios que conlleva. Es ideal para personas que tienen como objetivo hacer un
+          poco de ejercicio, perder peso o simplemente evadirse de las preocupaciones del día a día. No necesita de
+          ningún espacio en concreto ni está supeditada a un horario, lo cual hace que sea una práctica de fácil acceso
+          a todo tipo de personas.</p>
+      </article>
+    </section>
+    <section class="column column--rigth">
+      <article class="card">
+        <h2 class="card__title">Front end</h2>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">HTML</p>
+            <div class="skills__bar skills__bar--90"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">CSS</p>
+            <div class="skills__bar skills__bar--90"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">JavaScript</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">react</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Design</h2>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">Photoshop</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Ilustrator</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Figma</p>
+            <div class="skills__bar skills__bar--50"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Idiomas</h2>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">Español</p>
+            <div class="skills__bar skills__bar--100"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">ingles</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/project-3.jpg" alt="landing page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+            <span class="project__tag">#RESPONSIVE</span>
+          </div>
+          <h2 class="card__title">Landing page</h2>
+          <p class="card__text">La página de aterrizaje (landing page) es una página web que tiene como objetivo
+            principal convertir a los visitantes en clientes potenciales al fomentar una acción específica. Esta acción
+            puede ser desde completar un formulario de registro, realizar una compra o incluso simplemente brindar
+            información de contacto.</p>
+          <p class="card__text">Utilice JavaScript para agregar funcionalidades interactivas a la página, como
+            validaciones de formulario, animaciones de desplazamiento (scrolling), o incluso la integración de
+            herramientas de análisis para rastrear el comportamiento de los visitantes en la página.</p>
+          <div class="buttons">
+            <a href="https://n-o-i-s-e.github.io/proyecto-final-Juan-Barcenas/" class="button button--primary"> Demo
+            </a>
+            <a href="https://github.com/N-O-I-S-E/proyecto-final-Juan-Barcenas" class="button button--ghost"> Code </a>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/project-1.jpg" alt="landing page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#SASS</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#RESPONSIVE</span>
+          </div>
+          <h2 class="card__title">Landing page</h2>
+          <p class="card__text">La página de aterrizaje (landing page) es una página web que tiene como objetivo
+            principal convertir a los visitantes en clientes potenciales al fomentar una acción específica. Esta acción
+            puede ser desde completar un formulario de registro, realizar una compra o incluso simplemente brindar
+            información de contacto.</p>
+          <p class="card__text">Utilice CSS para darle estilo y diseño a la página, lo que podría incluir la elección
+            de colores y fuentes, la creación de diseños atractivos para secciones específicas de la página, y la
+            inclusión de animaciones o efectos para hacer que la página sea más atractiva visualmente.</p>
+          <div class="buttons">
+            <a href="https://n-o-i-s-e.github.io/proyecto-final/" class="button button--primary"> Demo </a>
+            <a href="https://github.com/N-O-I-S-E/proyecto-final" class="button button--ghost"> Code </a>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/project-2.jpg" alt="landing page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#RESPONSIVE</span>
+          </div>
+          <h2 class="card__title">Landing page</h2>
+          <p class="card__text">La página de aterrizaje (landing page) es una página web que tiene como objetivo
+            principal convertir a los visitantes en clientes potenciales al fomentar una acción específica. Esta acción
+            puede ser desde completar un formulario de registro, realizar una compra o incluso simplemente brindar
+            información de contacto.</p>
+          <p class="card__text">Utilice CSS para darle estilo y diseño a la página, lo que podría incluir la elección
+            de colores y fuentes, la creación de diseños atractivos para secciones específicas de la página, y la
+            inclusión de animaciones o efectos para hacer que la página sea más atractiva visualmente.</p>
+          <div class="buttons">
+            <a href="https://n-o-i-s-e.github.io/stilo-comunicacion/" class="button button--primary"> Demo </a>
+            <a href="https://github.com/N-O-I-S-E/stilo-comunicacion" class="button button--ghost"> Code </a>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
